@@ -5,13 +5,13 @@
 
 
 //直接缓存
- uint8_t CameraBuff[CAMERA_SIZE] = { 0x00 };
+ALIGN4 uint8_t CameraBuff[CAMERA_SIZE] = { 0x00 };
 //二级缓存
- uint8_t CameraData[CAMERA_SIZE] = { 0x00 };
+ALIGN4 uint8_t CameraData[CAMERA_SIZE] = { 0x00 };
 //解压图像
- uint8_t ImageData[CAMERA_W*CAMERA_H] = { 0x00 };
+ALIGN4 uint8_t ImageData[CAMERA_SIZE] = { 0x00 };
 
- 
+bool ImageStatus = false;
  
 //声明中断函数
 void PORTA_IRQHandler();
@@ -19,7 +19,7 @@ void DMA0_IRQHandler();
 void DMA1_IRQHandler();
 void DMA_Init(DMA_CHn CHn, uint8_t *SADDR, uint8_t *DADDR);
 
-uint8_t ImageStatus = 0;
+
 ///初始化摄像头
 //返回【0】正确 
 uint8_t Camera_Init(void)
@@ -48,12 +48,14 @@ uint8_t Camera_Init(void)
 //判断是否完成采集图像
 void Camera_Get_Image(void){
     
+    //等待采集成功
     while(!ImageStatus);
-//    img_extract(ImageData, CameraData,CAMERA_SIZE); //解压图像 
-    ImageStatus = 0;
+    
+    ImageStatus = false;
     //开始采集图像
     camera_get_img();   
-        
+    //复制
+    arm_copy_q7((q7_t*)CameraData, (q7_t*)ImageData, CAMERA_SIZE);    
 }
 ///DMA传输
 // DMA_CHn    通道号（DMA_CH0 ~ DMA_CH15）
@@ -108,7 +110,7 @@ void DMA_Init(DMA_CHn CHn, uint8_t *SADDR, uint8_t *DADDR)
     DMAMUX_CHCFG_REG(DMAMUX0_BASE_PTR, CHn) = (DMAMUX_CHCFG_SOURCE(DMA_Always_EN1)); //触发通道 
     DMAMUX_CHCFG_REG(DMAMUX0_BASE_PTR, CHn)  &= ~DMAMUX_CHCFG_TRIG_MASK;
     DMAMUX_CHCFG_REG(DMAMUX0_BASE_PTR, CHn) |= DMAMUX_CHCFG_ENBL_MASK;  // Enable routing of DMA request 
-     DMA_IRQ_EN(CHn);        //允许DMA通道传输
+    DMA_IRQ_EN(CHn);        //允许DMA通道传输
 }
 
 
@@ -141,7 +143,7 @@ void DMA1_IRQHandler()
     //清除通道传输中断标志位
     DMA_IRQ_CLEAN(DMA_CH1);
     //完成标志
-    ImageStatus = 1;    
+    ImageStatus = true;    
 }
 
 

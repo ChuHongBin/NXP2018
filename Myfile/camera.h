@@ -9,9 +9,8 @@
 extern uint8_t CameraBuff[];
 //二级缓存
 extern uint8_t CameraData[];
-//解压后的图像
+//三级缓存
 extern uint8_t ImageData[];
-
 //初始化摄像头
 uint8_t Camera_Init(void);
 //获取图像

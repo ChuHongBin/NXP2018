@@ -15,7 +15,7 @@ GUI_BITMAP DispImage =
 	IMAGE_HEIGHT,
 	IMAGE_WIDTH / 8,
 	1, // BitsPerPixel
-	CameraData,  // Pointer to picture data (indices)
+	ImageData,  // Pointer to picture data (indices)
 	&ImagePal   // Pointer to palette
 };
 

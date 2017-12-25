@@ -2241,6 +2241,9 @@
       <name>$PROJ_DIR$\..\..\Myfile\Image.c</name>
     </file>
     <file>
+      <name>$PROJ_DIR$\..\..\Myfile\Line.c</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\..\..\Myfile\Motor.c</name>
     </file>
     <file>

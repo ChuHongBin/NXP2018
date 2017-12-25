@@ -26,8 +26,8 @@ void  main(void)
     }
     //初始化SD卡
     while(1){
-        Camera_Get_Image();     
-           
+        //开始采集图像
+        Camera_Get_Image();      
     }   
 }
 
