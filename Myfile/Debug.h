@@ -6,6 +6,7 @@
 #include "include.h"
 
 
+void Debug(void);
 
 #endif
 

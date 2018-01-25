@@ -18,12 +18,16 @@ int16_t		LeftLineCnt			= 0;
 int16_t		RightLineCnt		= 0;
 int16_t		MiddleLineCnt		= 0;
 
+
+
+
 //图像处理
 void Handle_Image(void)
 {
     pImage = ImageData;
     //图像翻转
     turnImage();
+    //
 }
 
 //取点 

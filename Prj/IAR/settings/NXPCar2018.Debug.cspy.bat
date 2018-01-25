@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"E:\IAR\common\bin\cspybat" -f "C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\settings\NXPCar2018.Debug.general.xcl" --backend -f "C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\settings\NXPCar2018.Debug.driver.xcl" 
+"E:\IAR\common\bin\cspybat" -f "C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\settings\NXPCar2018.Debug.general.xcl" --backend -f "C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\settings\NXPCar2018.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"E:\IAR\common\bin\cspybat" -f "C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\settings\NXPCar2018.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\settings\NXPCar2018.Debug.driver.xcl" 
+"E:\IAR\common\bin\cspybat" -f "C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\settings\NXPCar2018.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\settings\NXPCar2018.Debug.driver.xcl" 
 
 @echo off 
 :end

@@ -115,7 +115,6 @@ void start_check()
         }
     }
 }
-
 #ifdef  DEBUG
 // VECTOR_TABLE end
 static char vector_str[][15];

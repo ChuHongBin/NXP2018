@@ -3,17 +3,14 @@
 
 #include "common.h"
 #include "include.h"
+#include "MK60_port.h"
+#include "MK60_gpio.h"
 
+void myKey_init     (void);
 
-extern bool key_Switch_1 ;
-extern bool key_Switch_2 ;
-extern bool key_Switch_3 ;
-extern bool key_Switch_4 ;
-extern bool key_Switch_5 ;
-extern bool key_Switch_6 ; 
+void key_get_status (void);
 
-
-
+extern int16_t key_status[12];
 #endif
 
 

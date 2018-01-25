@@ -8,16 +8,22 @@
 #include "Debug.h"
 #include "Encoder.h"
 #include "Route.h"
+#include "myKey.h"
+
+
+int Camera_init = 0;
 
 
 void  main(void)
 {  
     InitOK_t Init = {true, true};
     //初始化按键
+    myKey_init();
     //初始化舵机
     //初始化电机
     //初始化OLED
-    GUI_Init();          
+    GUI_Init(); 
+#if Camera_init
     //初始化摄像头
     if(Camera_Init()){
        Init.CameraInit =false; 
@@ -28,6 +34,11 @@ void  main(void)
     while(1){
         //开始采集图像
         Camera_Get_Image();      
-    }   
+    }
+#else
+    while(1){
+     Debug(); 
+    }
+#endif    
 }
 

@@ -6,7 +6,11 @@ int16_t Right_val;            //右编码器采样值
 int16_t Left_val;             //左编码器采样值
 int16_t tms =5;          //编码器采样时间(s)
 int16_t count = 0;
+
+
 void PIT0_IRQHandler(void);
+
+
 //编码器初始化
 void encoder_Init(void)
 {

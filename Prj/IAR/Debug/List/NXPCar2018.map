@@ -1,264 +1,265 @@
 ###############################################################################
 #
-# IAR ELF Linker V7.50.3.10732/W32 for ARM                25/Dec/2017  16:53:45
+# IAR ELF Linker V7.50.3.10732/W32 for ARM                25/Jan/2018  20:38:14
 # Copyright 2007-2016 IAR Systems AB.
 #
 #    Output file  =  
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Exe\NXPCar2018.out
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Exe\NXPCar2018.out
 #    Map file     =  
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\List\NXPCar2018.map
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\List\NXPCar2018.map
 #    Command line =  
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\camera.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\Debug.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\diskio.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\Encoder.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\F6x8.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\F8x16.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\ff.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI2DLib.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI__AddSpaceHex.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI__CalcTextRect.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI__DivideRound.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI__DivideRound32.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI__GetFontSizeY.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI__GetNumChars.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI__HandleEOLine.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI__IntersectRect.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI__IntersectRects.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI__memset.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI__memset16.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI__Read.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI__ReduceRect.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI__SetText.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI__strcmp.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI__strlen.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI__Wrap.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_AddBin.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_AddDec.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_AddDecMin.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_AddDecShift.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_AddHex.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_AddKeyMsgHook.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_ALLOC_AllocInit.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_ALLOC_AllocZero.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_BMP.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_BMP_Serialize.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CalcColorDist.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_ClearRectEx.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_Color2VisColor.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorArrowL.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorArrowLI.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorArrowLPx.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorArrowM.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorArrowMI.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorArrowMPx.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorArrowS.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorArrowSI.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorArrowSPx.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorCrossL.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorCrossLI.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorCrossLPx.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorCrossM.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorCrossMI.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorCrossMPx.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorCrossS.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorCrossSI.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorCrossSPx.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorHeaderM.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorHeaderMI.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorHeaderMPx.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorPal.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_CursorPalI.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DispBin.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DispCEOL.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DispChar.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DispChars.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DispHex.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DispString.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DispStringAt.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DispStringAtCEOL.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DispStringHCenter.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DispStringInRect.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DispStringInRectEx.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DispStringInRectMax.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DispStringLen.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DrawBitmap.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DrawBitmapEx.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DrawBitmapExp.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DrawBitmapMag.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DrawFocusRect.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DrawGraph.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DrawHLine.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DrawPie.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DrawPixel.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DrawPolyline.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DrawRectEx.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_DrawVLine.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_ErrorOut.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_Exec.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_FillPolygon.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_FillRect.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_FillRectEx.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_GetBitmapPixelColor.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_GetBitmapPixelIndex.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_GetClientRect.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_GetColor.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_GetDispPos.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_GetFont.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_GetFontInfo.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_GetFontSizeY.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_GetLineStyle.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_GetStringDistX.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_GetTextAlign.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_GetTextExtend.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_GetTextMode.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_GetVersionString.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_GetYSizeOfFont.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_Goto.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_InitLUT.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_InvertRect.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_IsInFont.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_Log.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_MergeRect.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_MOUSE.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_MOUSE_DriverPS2.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_MoveRect.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_OnKey.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_Pen.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_PID.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_RectsIntersect.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SaveContext.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SelectLayer.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SelectLCD.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SetColor.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SetColorIndex.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SetDecChar.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SetDefault.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SetDrawMode.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SetFont.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SetLBorder.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SetLineStyle.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SetLUTColor.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SetLUTColorEx.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SetLUTEntry.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SetOrg.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SetPixelIndex.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SetTextAlign.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SetTextMode.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SetTextStyle.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SIF.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_SIF_Prop.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_UC.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_UC_DispString.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_UC_EncodeNone.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_UC_EncodeUTF8.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_WaitEvent.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_WaitKey.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_Warn.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUI_X.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUIAlloc.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUIArc.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUIChar.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUICharLine.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUICharM.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUICharP.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUICirc.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUIColor2Index.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUICore.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUICurs.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUIEncJS.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUIIndex2Color.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUIPolyE.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUIPolyM.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUIPolyR.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUIRealloc.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUIStream.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUITask.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUITime.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUITimer.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUIUC0.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUIVal.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\GUIValf.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\Image.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_API.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_DrawBitmap_565.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_DrawBitmap_M565.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_DrawVLine.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_GetColorIndex.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_GetEx.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_GetNumDisplays.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_GetPixelColor.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_Index2ColorEx.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_L0_Generic.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_Mirror.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_MixColors256.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_Rotate180.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_RotateCCW.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_RotateCW.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_SelectLCD.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_SetAPI.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_SetClipRectEx.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCD_UpdateColorIndices.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCDAA.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCDColor.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCDDummy.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCDGetP.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCDInfo.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCDInfo0.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCDInfo1.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCDL0Delta.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCDL0Mag.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCDP0.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCDP1.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCDP2.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCDP4.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCDP565_Index2Color.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCDPM565_Index2Color.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCDRLE4.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\LCDRLE8.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\Line.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\main.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\misc.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_adc.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_conf.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_dac.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_dma.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_DWT.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_flash.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_ftm.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_gpio.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_i2c.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_it.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_lptmr.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_mcg.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_PIT.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_port.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_rtc.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_sdhc.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_spi.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_SysTick.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_uart.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\MK60_wdog.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\Motor.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\PID.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\SCAR_OLED.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\startup_MK60DZ10.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\system_MK60DZ10.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\VCAN_camera.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\VCAN_computer.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\VCAN_key.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\VCAN_LED.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\VCAN_OV7725_Eagle.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\VCAN_RTC_count.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\VCAN_SCCB.o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj\vectors.o -o
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Exe\NXPCar2018.out
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\camera.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\Debug.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\diskio.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\Encoder.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\F6x8.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\F8x16.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\ff.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI2DLib.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI__AddSpaceHex.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI__CalcTextRect.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI__DivideRound.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI__DivideRound32.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI__GetFontSizeY.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI__GetNumChars.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI__HandleEOLine.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI__IntersectRect.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI__IntersectRects.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI__memset.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI__memset16.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI__Read.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI__ReduceRect.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI__SetText.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI__strcmp.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI__strlen.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI__Wrap.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_AddBin.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_AddDec.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_AddDecMin.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_AddDecShift.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_AddHex.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_AddKeyMsgHook.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_ALLOC_AllocInit.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_ALLOC_AllocZero.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_BMP.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_BMP_Serialize.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CalcColorDist.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_ClearRectEx.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_Color2VisColor.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorArrowL.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorArrowLI.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorArrowLPx.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorArrowM.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorArrowMI.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorArrowMPx.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorArrowS.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorArrowSI.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorArrowSPx.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorCrossL.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorCrossLI.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorCrossLPx.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorCrossM.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorCrossMI.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorCrossMPx.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorCrossS.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorCrossSI.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorCrossSPx.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorHeaderM.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorHeaderMI.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorHeaderMPx.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorPal.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_CursorPalI.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DispBin.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DispCEOL.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DispChar.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DispChars.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DispHex.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DispString.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DispStringAt.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DispStringAtCEOL.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DispStringHCenter.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DispStringInRect.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DispStringInRectEx.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DispStringInRectMax.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DispStringLen.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DrawBitmap.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DrawBitmapEx.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DrawBitmapExp.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DrawBitmapMag.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DrawFocusRect.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DrawGraph.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DrawHLine.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DrawPie.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DrawPixel.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DrawPolyline.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DrawRectEx.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_DrawVLine.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_ErrorOut.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_Exec.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_FillPolygon.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_FillRect.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_FillRectEx.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_GetBitmapPixelColor.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_GetBitmapPixelIndex.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_GetClientRect.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_GetColor.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_GetDispPos.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_GetFont.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_GetFontInfo.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_GetFontSizeY.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_GetLineStyle.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_GetStringDistX.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_GetTextAlign.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_GetTextExtend.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_GetTextMode.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_GetVersionString.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_GetYSizeOfFont.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_Goto.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_InitLUT.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_InvertRect.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_IsInFont.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_Log.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_MergeRect.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_MOUSE.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_MOUSE_DriverPS2.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_MoveRect.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_OnKey.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_Pen.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_PID.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_RectsIntersect.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SaveContext.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SelectLayer.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SelectLCD.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SetColor.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SetColorIndex.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SetDecChar.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SetDefault.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SetDrawMode.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SetFont.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SetLBorder.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SetLineStyle.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SetLUTColor.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SetLUTColorEx.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SetLUTEntry.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SetOrg.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SetPixelIndex.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SetTextAlign.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SetTextMode.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SetTextStyle.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SIF.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_SIF_Prop.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_UC.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_UC_DispString.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_UC_EncodeNone.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_UC_EncodeUTF8.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_WaitEvent.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_WaitKey.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_Warn.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUI_X.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUIAlloc.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUIArc.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUIChar.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUICharLine.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUICharM.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUICharP.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUICirc.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUIColor2Index.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUICore.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUICurs.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUIEncJS.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUIIndex2Color.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUIPolyE.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUIPolyM.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUIPolyR.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUIRealloc.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUIStream.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUITask.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUITime.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUITimer.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUIUC0.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUIVal.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\GUIValf.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\Image.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_API.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_DrawBitmap_565.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_DrawBitmap_M565.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_DrawVLine.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_GetColorIndex.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_GetEx.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_GetNumDisplays.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_GetPixelColor.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_Index2ColorEx.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_L0_Generic.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_Mirror.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_MixColors256.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_Rotate180.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_RotateCCW.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_RotateCW.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_SelectLCD.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_SetAPI.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_SetClipRectEx.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCD_UpdateColorIndices.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCDAA.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCDColor.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCDDummy.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCDGetP.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCDInfo.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCDInfo0.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCDInfo1.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCDL0Delta.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCDL0Mag.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCDP0.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCDP1.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCDP2.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCDP4.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCDP565_Index2Color.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCDPM565_Index2Color.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCDRLE4.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\LCDRLE8.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\Line.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\main.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\misc.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_adc.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_conf.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_dac.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_dma.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_DWT.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_flash.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_ftm.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_gpio.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_i2c.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_it.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_lptmr.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_mcg.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_PIT.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_port.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_rtc.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_sdhc.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_spi.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_SysTick.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_uart.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\MK60_wdog.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\Motor.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\myKey.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\PID.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\SCAR_OLED.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\startup_MK60DZ10.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\system_MK60DZ10.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\VCAN_camera.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\VCAN_computer.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\VCAN_key.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\VCAN_LED.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\VCAN_OV7725_Eagle.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\VCAN_RTC_count.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\VCAN_SCCB.o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj\vectors.o -o
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Exe\NXPCar2018.out
 #        --map
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\List\NXPCar2018.map
-#        --config "C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\config
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\List\NXPCar2018.map
+#        --config "C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\config
 #        files\vcan_ROM_K60N1M.icf" --semihosting
-#        C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\..\..\Lib\CMSIS\iar_cortexM4l_math.a
+#        C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\..\..\Lib\CMSIS\iar_cortexM4l_math.a
 #        --entry __iar_program_start --inline --vfe
 #
 ###############################################################################
@@ -291,7 +292,7 @@ __SystemLibrary = DLib
   .noinit              ro code  0x00000410     0x8  startup_MK60DZ10.o [1]
                               - 0x00000418     0x8
 
-"P1":                                       0x5978
+"P1":                                       0x5288
   .text                ro code  0x00000418   0xd8e  xprintffull_nomb.o [3]
   .text                ro code  0x000011a8    0x16  strchr.o [6]
   .text                ro code  0x000011c0    0x36  strlen.o [6]
@@ -311,128 +312,125 @@ __SystemLibrary = DLib
   .text                ro code  0x00001bdc     0xe  div.o [3]
   .text                ro code  0x00001bec     0x2  I64DivZer.o [6]
   .text                ro code  0x00001bf0    0xd4  DblAdd.o [5]
-  .data_init                    0x00001cc4   0x858  <Block>
-    Initializer bytes  const    0x00001cc4   0x858  <for .data-1>
-  .text                ro code  0x0000251c   0x5f4  LCDDummy.o [1]
-  .text                ro code  0x00002b10   0x2b0  SCAR_OLED.o [1]
-  .text                ro code  0x00002dc0   0x19c  MK60_gpio.o [1]
-  .text                ro code  0x00002f5c    0x64  MK60_SysTick.o [1]
-  .text                ro code  0x00002fc0    0xb8  MK60_port.o [1]
-  Veneer               ro code  0x00003078     0x8  - Linker created -
-  Veneer               ro code  0x00003080     0x8  - Linker created -
-  .text                ro code  0x00003088   0x140  MK60_conf.o [1]
-  .text                ro code  0x000031c8    0x70  VCAN_LED.o [1]
-  .text                ro code  0x00003238    0x24  printf.o [3]
-  .text                ro code  0x0000325c   0x248  MK60_uart.o [1]
-  .text                ro code  0x000034a4    0x9c  VCAN_key.o [1]
-  .rodata              const    0x00003540   0x518  F6x8.o [1]
-  Veneer               ro code  0x00003a58     0x8  - Linker created -
-  .text                ro code  0x00003a60   0x3c4  MK60_mcg.o [1]
-  .text                ro code  0x00003e24   0x3ac  LCD.o [1]
-  .text                ro code  0x000041d0    0x2e  LCD_L0_Generic.o [1]
-  .text                ro code  0x00004200    0x24  LCDColor.o [1]
-  .text                ro code  0x00004224   0x362  VCAN_SCCB.o [1]
-  .text                ro code  0x00004588   0x2d4  camera.o [1]
-  .text                ro code  0x0000485c   0x210  VCAN_OV7725_Eagle.o [1]
-  .text                ro code  0x00004a6c    0x50  misc.o [1]
-  .text                ro code  0x00004abc    0x5c  arm_copy_q7.o [4]
-  .text                ro code  0x00004b18   0x268  MK60_dma.o [1]
-  .text                ro code  0x00004d80   0x21e  GUICharM.o [1]
-  CodeRelocate                  0x00004fa0   0x1f0  <Block>
-    Initializer bytes  const    0x00004fa0   0x1f0  <for CodeRelocateRam-1>
-  .rodata              const    0x00005190   0x1c0  F6x8.o [1]
-  .text                ro code  0x00005350   0x144  GUICharLine.o [1]
-  .text                ro code  0x00005494    0x3a  GUI_RectsIntersect.o [1]
-  .text                ro code  0x000054d0    0x54  GUI_UC.o [1]
-  .text                ro code  0x00005524    0x78  GUIChar.o [1]
-  .text                ro code  0x0000559c   0x13c  GUI_DispString.o [1]
-  .text                ro code  0x000056d8   0x130  system_MK60DZ10.o [1]
-  .text                ro code  0x00005808    0x40  MK60_wdog.o [1]
-  .text                ro code  0x00005848    0x34  main.o [1]
-  .text                ro code  0x0000587c    0x6c  GUICore.o [1]
-  .text                ro code  0x000058e8    0x40  zero_init3.o [6]
-  .rodata              const    0x00005928    0x3c  MK60_conf.o [1]
-  .rodata              const    0x00005964    0x3c  MK60_flash.o [1]
-  .rodata              const    0x000059a0    0x3c  MK60_SysTick.o [1]
-  .rodata              const    0x000059dc    0x38  MK60_dma.o [1]
-  .rodata              const    0x00005a14    0x38  MK60_gpio.o [1]
-  .rodata              const    0x00005a4c    0x38  MK60_uart.o [1]
-  .rodata              const    0x00005a84    0x34  misc.o [1]
-  .text                ro code  0x00005ab8    0x28  data_init.o [6]
-  .rodata              const    0x00005ae0    0x24  MK60_conf.o [1]
-  .rodata              const    0x00005b04    0x24  VCAN_OV7725_Eagle.o [1]
-  .rodata              const    0x00005b28    0x24  VCAN_OV7725_Eagle.o [1]
-  .text                ro code  0x00005b4c    0x22  fpinit_M.o [5]
-  .iar.init_table      const    0x00005b70    0x10  - Linker created -
-  .rodata              const    0x00005b80    0x20  F6x8.o [1]
-  .rodata              const    0x00005ba0    0x20  MK60_conf.o [1]
-  .rodata              const    0x00005bc0    0x20  VCAN_OV7725_Eagle.o [1]
-  .text                ro code  0x00005be0    0x1a  GUI_UC_EncodeNone.o [1]
-  .text                ro code  0x00005bfc    0x1a  cmain.o [6]
-  .text                ro code  0x00005c16     0x4  exit.o [3]
-  .text                ro code  0x00005c1c     0xa  cexit.o [6]
-  .text                ro code  0x00005c28    0x14  exit.o [7]
-  .rodata              const    0x00005c3c    0x18  VCAN_OV7725_Eagle.o [1]
-  .rodata              const    0x00005c54    0x18  VCAN_OV7725_Eagle.o [1]
-  .text                ro code  0x00005c6c    0x16  xprout.o [3]
-  .text                ro code  0x00005c84     0xc  putchar.o [3]
-  .rodata              const    0x00005c90    0x14  F6x8.o [1]
-  .rodata              const    0x00005ca4    0x14  main.o [1]
-  .rodata              const    0x00005cb8    0x14  MK60_conf.o [1]
-  .rodata              const    0x00005ccc    0x14  VCAN_OV7725_Eagle.o [1]
-  .rodata              const    0x00005ce0    0x10  GUI_UC_EncodeNone.o [1]
-  .text                ro code  0x00005cf0     0xc  cstartup_M.o [6]
-  .rodata              const    0x00005cfc     0x8  F6x8.o [1]
-  .rodata              const    0x00005d04     0x4  main.o [1]
-  .rodata              const    0x00005d08     0x0  zero_init3.o [6]
-  Initializer bytes    const    0x00005d08    0x88  <for P2 s0>
-                              - 0x00005d90  0x5978
+  .data_init                    0x00001cc4   0x800  <Block>
+    Initializer bytes  const    0x00001cc4   0x800  <for .data-1>
+  .text                ro code  0x000024c4   0x5f4  LCDDummy.o [1]
+  .text                ro code  0x00002ab8   0x2b0  SCAR_OLED.o [1]
+  .text                ro code  0x00002d68   0x19c  MK60_gpio.o [1]
+  .text                ro code  0x00002f04    0x64  MK60_SysTick.o [1]
+  .text                ro code  0x00002f68    0xb8  MK60_port.o [1]
+  Veneer               ro code  0x00003020     0x8  - Linker created -
+  Veneer               ro code  0x00003028     0x8  - Linker created -
+  .text                ro code  0x00003030   0x140  MK60_conf.o [1]
+  .text                ro code  0x00003170    0x70  VCAN_LED.o [1]
+  .text                ro code  0x000031e0    0x24  printf.o [3]
+  .text                ro code  0x00003204   0x248  MK60_uart.o [1]
+  .text                ro code  0x0000344c    0x9c  VCAN_key.o [1]
+  .rodata              const    0x000034e8   0x518  F6x8.o [1]
+  Veneer               ro code  0x00003a00     0x8  - Linker created -
+  .text                ro code  0x00003a08   0x3c4  MK60_mcg.o [1]
+  .text                ro code  0x00003dcc   0x3ac  LCD.o [1]
+  .text                ro code  0x00004178    0x2e  LCD_L0_Generic.o [1]
+  .text                ro code  0x000041a8    0x24  LCDColor.o [1]
+  .text                ro code  0x000041cc   0x34c  Debug.o [1]
+  .text                ro code  0x00004518    0xda  myKey.o [1]
+  .text                ro code  0x000045f4    0x36  GUI_Goto.o [1]
+  .text                ro code  0x0000462a    0x38  GUIVal.o [1]
+  .text                ro code  0x00004664   0x13c  GUI_DispString.o [1]
+  .text                ro code  0x000047a0    0xc4  GUI_AddDecShift.o [1]
+  .text                ro code  0x00004864    0x78  GUIChar.o [1]
+  .text                ro code  0x000048dc   0x144  GUICharLine.o [1]
+  .text                ro code  0x00004a20    0x54  GUI_UC.o [1]
+  .text                ro code  0x00004a74    0x3a  GUI_RectsIntersect.o [1]
+  .text                ro code  0x00004ab0   0x21e  GUICharM.o [1]
+  CodeRelocate                  0x00004cd0   0x1f0  <Block>
+    Initializer bytes  const    0x00004cd0   0x1f0  <for CodeRelocateRam-1>
+  .rodata              const    0x00004ec0   0x1c0  F6x8.o [1]
+  .text                ro code  0x00005080   0x130  system_MK60DZ10.o [1]
+  .text                ro code  0x000051b0    0x40  MK60_wdog.o [1]
+  .text                ro code  0x000051f0    0x18  main.o [1]
+  .text                ro code  0x00005208    0x2c  misc.o [1]
+  .text                ro code  0x00005234    0x6c  GUICore.o [1]
+  .text                ro code  0x000052a0    0x40  zero_init3.o [6]
+  .rodata              const    0x000052e0    0x3c  MK60_conf.o [1]
+  .rodata              const    0x0000531c    0x3c  MK60_flash.o [1]
+  .rodata              const    0x00005358    0x3c  MK60_SysTick.o [1]
+  .rodata              const    0x00005394    0x38  MK60_gpio.o [1]
+  .rodata              const    0x000053cc    0x38  MK60_uart.o [1]
+  .rodata              const    0x00005404    0x34  misc.o [1]
+  .rodata              const    0x00005438    0x28  GUI_AddDecShift.o [1]
+  .text                ro code  0x00005460    0x28  data_init.o [6]
+  .rodata              const    0x00005488    0x24  MK60_conf.o [1]
+  .text                ro code  0x000054ac    0x22  fpinit_M.o [5]
+  .iar.init_table      const    0x000054d0    0x10  - Linker created -
+  .rodata              const    0x000054e0    0x20  F6x8.o [1]
+  .rodata              const    0x00005500    0x20  MK60_conf.o [1]
+  .text                ro code  0x00005520    0x1a  GUI_UC_EncodeNone.o [1]
+  .text                ro code  0x0000553c    0x1a  cmain.o [6]
+  .text                ro code  0x00005556     0x4  exit.o [3]
+  .text                ro code  0x0000555c     0xa  cexit.o [6]
+  .text                ro code  0x00005568    0x14  exit.o [7]
+  .text                ro code  0x0000557c    0x16  xprout.o [3]
+  .text                ro code  0x00005594     0xc  putchar.o [3]
+  .rodata              const    0x000055a0    0x14  F6x8.o [1]
+  .rodata              const    0x000055b4    0x14  MK60_conf.o [1]
+  .rodata              const    0x000055c8    0x10  GUI_UC_EncodeNone.o [1]
+  .text                ro code  0x000055d8     0xc  cstartup_M.o [6]
+  .rodata              const    0x000055e4     0x8  Debug.o [1]
+  .rodata              const    0x000055ec     0x8  Debug.o [1]
+  .rodata              const    0x000055f4     0x8  Debug.o [1]
+  .rodata              const    0x000055fc     0x8  Debug.o [1]
+  .rodata              const    0x00005604     0x8  Debug.o [1]
+  .rodata              const    0x0000560c     0x8  F6x8.o [1]
+  .rodata              const    0x00005614     0x4  main.o [1]
+  .rodata              const    0x00005618     0x0  zero_init3.o [6]
+  Initializer bytes    const    0x00005618    0x88  <for P2 s0>
+                              - 0x000056a0  0x5288
 
-"P2", part 1 of 3:                           0xa48
-  .data                         0x1fff0410   0x858  <Block>
-    .data-1                     0x1fff0410   0x856  <Init block>
+"P2", part 1 of 3:                           0x9f0
+  .data                         0x1fff0410   0x800  <Block>
+    .data-1                     0x1fff0410   0x7fe  <Init block>
       .data            inited   0x1fff0410   0x708  MK60_conf.o [1]
       .data            inited   0x1fff0b18    0x14  MK60_gpio.o [1]
       .data            inited   0x1fff0b2c    0x58  MK60_mcg.o [1]
       .data            inited   0x1fff0b84     0x4  MK60_mcg.o [1]
       .data            inited   0x1fff0b88    0x14  MK60_port.o [1]
       .data            inited   0x1fff0b9c    0x18  MK60_uart.o [1]
-      .data            inited   0x1fff0bb4     0x8  VCAN_key.o [1]
-      .data            inited   0x1fff0bbc     0x4  VCAN_LED.o [1]
-      .data            inited   0x1fff0bc0    0x64  VCAN_OV7725_Eagle.o [1]
-      .data            inited   0x1fff0c24    0x40  xfiles.o [3]
-      .data            inited   0x1fff0c64     0x1  VCAN_OV7725_Eagle.o [1]
-      .data            inited   0x1fff0c65     0x1  VCAN_OV7725_Eagle.o [1]
-  CodeRelocateRam               0x1fff0c68   0x1f0  <Block>
-    CodeRelocateRam-1           0x1fff0c68   0x1f0  <Init block>
-      Veneer           inited   0x1fff0c68     0x8  - Linker created -
-      Veneer           inited   0x1fff0c70     0x8  - Linker created -
-      .textrw          inited   0x1fff0c78   0x190  MK60_flash.o [1]
-      .textrw          inited   0x1fff0e08    0x50  MK60_mcg.o [1]
-                              - 0x1fff0e58   0xa48
+      .data            inited   0x1fff0bb4     0x8  myKey.o [1]
+      .data            inited   0x1fff0bbc     0x8  VCAN_key.o [1]
+      .data            inited   0x1fff0bc4     0x4  VCAN_LED.o [1]
+      .data            inited   0x1fff0bc8    0x40  xfiles.o [3]
+      .data            inited   0x1fff0c08     0x2  Debug.o [1]
+      .data            inited   0x1fff0c0a     0x2  Debug.o [1]
+      .data            inited   0x1fff0c0c     0x2  myKey.o [1]
+  CodeRelocateRam               0x1fff0c10   0x1f0  <Block>
+    CodeRelocateRam-1           0x1fff0c10   0x1f0  <Init block>
+      Veneer           inited   0x1fff0c10     0x8  - Linker created -
+      Veneer           inited   0x1fff0c18     0x8  - Linker created -
+      .textrw          inited   0x1fff0c20   0x190  MK60_flash.o [1]
+      .textrw          inited   0x1fff0db0    0x50  MK60_mcg.o [1]
+                              - 0x1fff0e00   0x9f0
 
-"P2", part 2 of 3:                           0xbac
-  .bss                          0x1fff0e58   0xbac  <Block>
-    .bss               zero     0x1fff0e58   0x258  camera.o [1]
-    .bss               zero     0x1fff10b0   0x258  camera.o [1]
-    .bss               zero     0x1fff1308   0x258  camera.o [1]
-    .bss               zero     0x1fff1560    0x38  GUICore.o [1]
-    .bss               zero     0x1fff1598     0x4  GUICore.o [1]
-    .bss               zero     0x1fff159c     0x4  GUICore.o [1]
-    .bss               zero     0x1fff15a0   0x400  SCAR_OLED.o [1]
-    .bss               zero     0x1fff19a0     0x4  system_MK60DZ10.o [1]
-    .bss               zero     0x1fff19a4     0x4  system_MK60DZ10.o [1]
-    .bss               zero     0x1fff19a8     0x4  system_MK60DZ10.o [1]
-    .bss               zero     0x1fff19ac     0x4  VCAN_OV7725_Eagle.o [1]
-    .bss               zero     0x1fff19b0    0x50  xfiles.o [3]
-    .bss               zero     0x1fff1a00     0x1  camera.o [1]
-    .bss               zero     0x1fff1a01     0x1  GUICore.o [1]
-                              - 0x1fff1a04   0xbac
+"P2", part 2 of 3:                           0x4c4
+  .bss                          0x1fff0e00   0x4c4  <Block>
+    .bss               zero     0x1fff0e00     0x8  Debug.o [1]
+    .bss               zero     0x1fff0e08     0x4  Debug.o [1]
+    .bss               zero     0x1fff0e0c    0x38  GUICore.o [1]
+    .bss               zero     0x1fff0e44     0x4  GUICore.o [1]
+    .bss               zero     0x1fff0e48     0x4  GUICore.o [1]
+    .bss               zero     0x1fff0e4c    0x18  myKey.o [1]
+    .bss               zero     0x1fff0e64   0x400  SCAR_OLED.o [1]
+    .bss               zero     0x1fff1264     0x4  system_MK60DZ10.o [1]
+    .bss               zero     0x1fff1268     0x4  system_MK60DZ10.o [1]
+    .bss               zero     0x1fff126c     0x4  system_MK60DZ10.o [1]
+    .bss               zero     0x1fff1270    0x50  xfiles.o [3]
+    .bss               zero     0x1fff12c0     0x1  GUICore.o [1]
+                              - 0x1fff12c4   0x4c4
 
 "P2", part 3 of 3:                            0x88
-  P2 s0                         0x1fff1a04    0x88  <Init block>
-    __DLIB_PERTHREAD   inited   0x1fff1a04    0x88  localeconv.o [3]
-                              - 0x1fff1a8c    0x88
+  P2 s0                         0x1fff12c4    0x88  <Init block>
+    __DLIB_PERTHREAD   inited   0x1fff12c4    0x88  localeconv.o [3]
+                              - 0x1fff134c    0x88
 
 
 *******************************************************************************
@@ -442,8 +440,8 @@ __SystemLibrary = DLib
           Address     Size
           -------     ----
 Zero (__iar_zero_init3)
-    1 destination range, total size 0xbaa:
-          0x1fff0e58  0xbaa
+    1 destination range, total size 0x4c1:
+          0x1fff0e00  0x4c1
 
 
 
@@ -453,13 +451,17 @@ Zero (__iar_zero_init3)
 
     Module                 ro code  rw code  ro data  rw data
     ------                 -------  -------  -------  -------
-C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj: [1]
+C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj: [1]
+    Debug.o                    844                44       16
     F6x8.o                                     1 812
     GUIChar.o                  120
     GUICharLine.o              324
     GUICharM.o                 542
     GUICore.o                  108                         65
+    GUIVal.o                    56
+    GUI_AddDecShift.o          196                40
     GUI_DispString.o           316
+    GUI_Goto.o                  54
     GUI_RectsIntersect.o        58
     GUI_UC.o                    84
     GUI_UC_EncodeNone.o         26                16
@@ -469,7 +471,6 @@ C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj: [1]
     LCD_L0_Generic.o            46
     MK60_SysTick.o             100                60
     MK60_conf.o                320             1 948    1 800
-    MK60_dma.o                 616                56
     MK60_flash.o                        400      460
     MK60_gpio.o                412                76       20
     MK60_mcg.o                 964       80      172       92
@@ -478,17 +479,15 @@ C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj: [1]
     MK60_wdog.o                 64
     SCAR_OLED.o                688                      1 024
     VCAN_LED.o                 112                 4        4
-    VCAN_OV7725_Eagle.o        528               274      106
-    VCAN_SCCB.o                866
     VCAN_key.o                 156                 8        8
-    camera.o                   724                      1 801
-    main.o                      52                24
-    misc.o                      80                52
+    main.o                      24                 4
+    misc.o                      44                52
+    myKey.o                    218                10       34
     startup_MK60DZ10.o           8
     system_MK60DZ10.o          304                         12
     vectors.o                                  1 040
     ---------------------------------------------------------
-    Total:                  10 886      480    6 102    4 976
+    Total:                   9 456      480    5 846    3 119
 
 command line: [2]
     ---------------------------------------------------------
@@ -507,9 +506,8 @@ dl7M_tlf.a: [3]
     Total:                   3 666               200      280
 
 iar_cortexM4l_math.a: [4]
-    arm_copy_q7.o               92
     ---------------------------------------------------------
-    Total:                      92
+    Total:
 
 m7M_tls.a: [5]
     DblAdd.o                   212
@@ -546,10 +544,10 @@ shb_l.a: [7]
     ---------------------------------------------------------
     Total:                      20
 
-    Gaps                        34                 2
+    Gaps                        36                 2
     Linker created              24       16       34
 -------------------------------------------------------------
-    Grand Total:            17 612      496    6 338    5 256
+    Grand Total:            16 092      496    6 082    3 399
 
 
 *******************************************************************************
@@ -558,133 +556,117 @@ shb_l.a: [7]
 
 Entry                      Address   Size  Type      Object
 -----                      -------   ----  ----      ------
-.bss$$Base              0x1fff0e58          --   Gb  - Linker created -
-.bss$$Limit             0x1fff1a04          --   Gb  - Linker created -
+.bss$$Base              0x1fff0e00          --   Gb  - Linker created -
+.bss$$Limit             0x1fff12c4          --   Gb  - Linker created -
 .data$$Base             0x1fff0410          --   Gb  - Linker created -
-.data$$Limit            0x1fff0c68          --   Gb  - Linker created -
+.data$$Limit            0x1fff0c10          --   Gb  - Linker created -
 .data_init$$Base        0x00001cc4          --   Gb  - Linker created -
-.data_init$$Limit       0x0000251c          --   Gb  - Linker created -
-.iar.init_table$$Base   0x00005b70          --   Gb  - Linker created -
-.iar.init_table$$Limit  0x00005b80          --   Gb  - Linker created -
-?main                   0x00005bfd         Code  Gb  cmain.o [6]
-ASSERT_FAILED_STR       0x00005ae0   0x24  Data  Gb  MK60_conf.o [1]
-CameraBuff              0x1fff0e58  0x258  Data  Gb  camera.o [1]
-CameraData              0x1fff10b0  0x258  Data  Gb  camera.o [1]
-Camera_Get_Image        0x00004647   0x22  Code  Gb  camera.o [1]
-Camera_Init             0x000045e1   0x66  Code  Gb  camera.o [1]
-CodeRelocate$$Base      0x00004fa0          --   Gb  - Linker created -
-CodeRelocate$$Limit     0x00005190          --   Gb  - Linker created -
-CodeRelocateRam$$Base   0x1fff0c68          --   Gb  - Linker created -
-CodeRelocateRam$$Limit  0x1fff0e58          --   Gb  - Linker created -
-DMA0_IRQHandler         0x000047ed   0x14  Code  Gb  camera.o [1]
-DMA1_IRQHandler         0x00004801   0x14  Code  Gb  camera.o [1]
-DMA_Init                0x00004669  0x15e  Code  Gb  camera.o [1]
+.data_init$$Limit       0x000024c4          --   Gb  - Linker created -
+.iar.init_table$$Base   0x000054d0          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x000054e0          --   Gb  - Linker created -
+?main                   0x0000553d         Code  Gb  cmain.o [6]
+ASSERT_FAILED_STR       0x00005488   0x24  Data  Gb  MK60_conf.o [1]
+CodeRelocate$$Base      0x00004cd0          --   Gb  - Linker created -
+CodeRelocate$$Limit     0x00004ec0          --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff0c10          --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff0e00          --   Gb  - Linker created -
+Debug                   0x000041cd  0x140  Code  Gb  Debug.o [1]
 GPIOX                   0x1fff0b18   0x14  Data  Gb  MK60_gpio.o [1]
-GUIMONO_DispChar        0x00004d81  0x1be  Code  Gb  GUICharM.o [1]
-GUIMONO_GetCharDistX    0x00004f3f   0x16  Code  Gb  GUICharM.o [1]
-GUIMONO_GetFontInfo     0x00004f59    0x6  Code  Gb  GUICharM.o [1]
-GUIMONO_IsInFont        0x00004f5f   0x40  Code  Gb  GUICharM.o [1]
-GUI_Context             0x1fff1560   0x38  Data  Gb  GUICore.o [1]
-GUI_DecChar             0x1fff1a01    0x1  Data  Gb  GUICore.o [1]
-GUI_DispString          0x0000559d  0x13c  Code  Gb  GUI_DispString.o [1]
-GUI_F6x8_Mono           0x00005c90   0x14  Data  Gb  F6x8.o [1]
-GUI_F6x8_TI8859_1       0x00005cfc    0x8  Data  Gb  F6x8.o [1]
-GUI_F6x8_TL8859_1       0x00005190  0x1c0  Data  Gb  F6x8.o [1]
-GUI_Font6x8             0x00005b80   0x20  Data  Gb  F6x8.o [1]
-GUI_GetCharDistX        0x00005581   0x16  Code  Gb  GUIChar.o [1]
-GUI_GetFontDistY        0x0000556d   0x14  Code  Gb  GUIChar.o [1]
-GUI_GetYAdjust          0x00005525   0x48  Code  Gb  GUIChar.o [1]
-GUI_Init                0x000058b7   0x1c  Code  Gb  GUICore.o [1]
-GUI_RectsIntersect      0x00005495   0x3a  Code  Gb  GUI_RectsIntersect.o [1]
-GUI_UC__GetCharCodeInc  0x000054d1   0x28  Code  Gb  GUI_UC.o [1]
+GUIMONO_DispChar        0x00004ab1  0x1be  Code  Gb  GUICharM.o [1]
+GUIMONO_GetCharDistX    0x00004c6f   0x16  Code  Gb  GUICharM.o [1]
+GUIMONO_GetFontInfo     0x00004c89    0x6  Code  Gb  GUICharM.o [1]
+GUIMONO_IsInFont        0x00004c8f   0x40  Code  Gb  GUICharM.o [1]
+GUI_AddDecShift         0x000047c1   0x9c  Code  Gb  GUI_AddDecShift.o [1]
+GUI_Context             0x1fff0e0c   0x38  Data  Gb  GUICore.o [1]
+GUI_DecChar             0x1fff12c0    0x1  Data  Gb  GUICore.o [1]
+GUI_DispDec             0x0000464f   0x14  Code  Gb  GUIVal.o [1]
+GUI_DispDecShift        0x0000462b   0x24  Code  Gb  GUIVal.o [1]
+GUI_DispString          0x00004665  0x13c  Code  Gb  GUI_DispString.o [1]
+GUI_F6x8_Mono           0x000055a0   0x14  Data  Gb  F6x8.o [1]
+GUI_F6x8_TI8859_1       0x0000560c    0x8  Data  Gb  F6x8.o [1]
+GUI_F6x8_TL8859_1       0x00004ec0  0x1c0  Data  Gb  F6x8.o [1]
+GUI_Font6x8             0x000054e0   0x20  Data  Gb  F6x8.o [1]
+GUI_GetCharDistX        0x000048c1   0x16  Code  Gb  GUIChar.o [1]
+GUI_GetFontDistY        0x000048ad   0x14  Code  Gb  GUIChar.o [1]
+GUI_GetYAdjust          0x00004865   0x48  Code  Gb  GUIChar.o [1]
+GUI_GotoXY              0x0000460d   0x1e  Code  Gb  GUI_Goto.o [1]
+GUI_Init                0x0000526f   0x1c  Code  Gb  GUICore.o [1]
+GUI_Pow10               0x00005438   0x28  Data  Gb  GUI_AddDecShift.o [1]
+GUI_RectsIntersect      0x00004a75   0x3a  Code  Gb  GUI_RectsIntersect.o [1]
+GUI_UC__GetCharCodeInc  0x00004a21   0x28  Code  Gb  GUI_UC.o [1]
 GUI_UC__NumChars2NumBytes
-                        0x000054f9   0x26  Code  Gb  GUI_UC.o [1]
-GUI__API_TableNone      0x00005ce0   0x10  Data  Gb  GUI_UC_EncodeNone.o [1]
-GUI__DispLine           0x00005447   0x42  Code  Gb  GUICharLine.o [1]
-GUI__GetLineDistX       0x000053ff   0x48  Code  Gb  GUICharLine.o [1]
-GUI__GetLineNumChars    0x000053b9   0x46  Code  Gb  GUICharLine.o [1]
-GUI_acFont6x8           0x00003540  0x518  Data  Gb  F6x8.o [1]
-GUI_pLCD_APIList        0x1fff159c    0x4  Data  Gb  GUICore.o [1]
-GUI_pfDispCharStyle     0x1fff1598    0x4  Data  Gb  GUICore.o [1]
-ImageData               0x1fff1308  0x258  Data  Gb  camera.o [1]
-ImageStatus             0x1fff1a00    0x1  Data  Gb  camera.o [1]
-KEY_PTxn                0x1fff0bb4    0x8  Data  Gb  VCAN_key.o [1]
-LCD_Color2Index         0x00004173    0xc  Code  Gb  LCD.o [1]
-LCD_DrawBitmap          0x00003ef9  0x238  Code  Gb  LCD.o [1]
-LCD_FillRect            0x00003e91   0x68  Code  Gb  LCD.o [1]
-LCD_Index2Color         0x0000417f    0xc  Code  Gb  LCD.o [1]
-LCD_Init                0x0000413b   0x38  Code  Gb  LCD.o [1]
-LCD_InitLUT             0x00004201   0x24  Code  Gb  LCDColor.o [1]
-LCD_L0_Color2Index      0x000041d1   0x10  Code  Gb  LCD_L0_Generic.o [1]
-LCD_L0_DrawBitmap       0x00002a6f   0x98  Code  Gb  LCDDummy.o [1]
-LCD_L0_DrawHLine        0x00002a17   0x36  Code  Gb  LCDDummy.o [1]
-LCD_L0_FillRect         0x00002a51   0x1e  Code  Gb  LCDDummy.o [1]
-LCD_L0_GetPixelIndex    0x000029ed    0xa  Code  Gb  LCDDummy.o [1]
-LCD_L0_GetRect          0x000041ed   0x12  Code  Gb  LCD_L0_Generic.o [1]
-LCD_L0_Index2Color      0x000041e1    0xc  Code  Gb  LCD_L0_Generic.o [1]
-LCD_L0_Init             0x00002b07    0xa  Code  Gb  LCDDummy.o [1]
-LCD_L0_SetPixelIndex    0x000029d9   0x14  Code  Gb  LCDDummy.o [1]
-LCD_L0_XorPixel         0x000029f7   0x20  Code  Gb  LCDDummy.o [1]
-LCD_SetBkColor          0x0000418b   0x1c  Code  Gb  LCD.o [1]
-LCD_SetBkColorIndex     0x00003e47   0x12  Code  Gb  LCD.o [1]
-LCD_SetClipRectMax      0x00004131    0xa  Code  Gb  LCD.o [1]
-LCD_SetColor            0x000041a7   0x1c  Code  Gb  LCD.o [1]
-LCD_SetColorIndex       0x00003e35   0x12  Code  Gb  LCD.o [1]
-LCD_SetDrawMode         0x00003e59   0x38  Code  Gb  LCD.o [1]
-LED_PTxn                0x1fff0bbc    0x4  Data  Gb  VCAN_LED.o [1]
+                        0x00004a49   0x26  Code  Gb  GUI_UC.o [1]
+GUI__API_TableNone      0x000055c8   0x10  Data  Gb  GUI_UC_EncodeNone.o [1]
+GUI__DispLine           0x000049d3   0x42  Code  Gb  GUICharLine.o [1]
+GUI__GetLineDistX       0x0000498b   0x48  Code  Gb  GUICharLine.o [1]
+GUI__GetLineNumChars    0x00004945   0x46  Code  Gb  GUICharLine.o [1]
+GUI_acFont6x8           0x000034e8  0x518  Data  Gb  F6x8.o [1]
+GUI_pLCD_APIList        0x1fff0e48    0x4  Data  Gb  GUICore.o [1]
+GUI_pfDispCharStyle     0x1fff0e44    0x4  Data  Gb  GUICore.o [1]
+KEY_PTxn                0x1fff0bbc    0x8  Data  Gb  VCAN_key.o [1]
+LCD_Color2Index         0x0000411b    0xc  Code  Gb  LCD.o [1]
+LCD_DrawBitmap          0x00003ea1  0x238  Code  Gb  LCD.o [1]
+LCD_FillRect            0x00003e39   0x68  Code  Gb  LCD.o [1]
+LCD_Index2Color         0x00004127    0xc  Code  Gb  LCD.o [1]
+LCD_Init                0x000040e3   0x38  Code  Gb  LCD.o [1]
+LCD_InitLUT             0x000041a9   0x24  Code  Gb  LCDColor.o [1]
+LCD_L0_Color2Index      0x00004179   0x10  Code  Gb  LCD_L0_Generic.o [1]
+LCD_L0_DrawBitmap       0x00002a17   0x98  Code  Gb  LCDDummy.o [1]
+LCD_L0_DrawHLine        0x000029bf   0x36  Code  Gb  LCDDummy.o [1]
+LCD_L0_FillRect         0x000029f9   0x1e  Code  Gb  LCDDummy.o [1]
+LCD_L0_GetPixelIndex    0x00002995    0xa  Code  Gb  LCDDummy.o [1]
+LCD_L0_GetRect          0x00004195   0x12  Code  Gb  LCD_L0_Generic.o [1]
+LCD_L0_Index2Color      0x00004189    0xc  Code  Gb  LCD_L0_Generic.o [1]
+LCD_L0_Init             0x00002aaf    0xa  Code  Gb  LCDDummy.o [1]
+LCD_L0_SetPixelIndex    0x00002981   0x14  Code  Gb  LCDDummy.o [1]
+LCD_L0_XorPixel         0x0000299f   0x20  Code  Gb  LCDDummy.o [1]
+LCD_SetBkColor          0x00004133   0x1c  Code  Gb  LCD.o [1]
+LCD_SetBkColorIndex     0x00003def   0x12  Code  Gb  LCD.o [1]
+LCD_SetClipRectMax      0x000040d9    0xa  Code  Gb  LCD.o [1]
+LCD_SetColor            0x0000414f   0x1c  Code  Gb  LCD.o [1]
+LCD_SetColorIndex       0x00003ddd   0x12  Code  Gb  LCD.o [1]
+LCD_SetDrawMode         0x00003e01   0x38  Code  Gb  LCD.o [1]
+LED_PTxn                0x1fff0bc4    0x4  Data  Gb  VCAN_LED.o [1]
 LoadInt                 0x0000099d   0x6e  Code  Lc  xprintffull_nomb.o [3]
-NVIC_DisableIRQ         0x00004871   0x14  Code  Lc  VCAN_OV7725_Eagle.o [1]
-NVIC_EnableIRQ          0x000045a7   0x14  Code  Lc  camera.o [1]
-NVIC_EnableIRQ          0x0000485d   0x14  Code  Lc  VCAN_OV7725_Eagle.o [1]
-NVIC_SetPriority        0x000045bb   0x26  Code  Lc  camera.o [1]
-NVIC_SetPriorityGrouping
-                        0x00004589   0x1e  Code  Lc  camera.o [1]
-NVIC_SystemReset        0x00003089   0x1a  Code  Lc  MK60_conf.o [1]
-OLED_Clear              0x00002d85   0x36  Code  Gb  SCAR_OLED.o [1]
-OLED_DLY_ms             0x00002bad    0xe  Code  Gb  SCAR_OLED.o [1]
-OLED_DrawPoint          0x00002cd5   0x6a  Code  Gb  SCAR_OLED.o [1]
-OLED_GRAM               0x1fff15a0  0x400  Data  Gb  SCAR_OLED.o [1]
-OLED_Updata             0x00002d3f   0x46  Code  Gb  SCAR_OLED.o [1]
-OLED_WriteCmd           0x00002b5f   0x4e  Code  Gb  SCAR_OLED.o [1]
-OLED_WriteData          0x00002b11   0x4e  Code  Gb  SCAR_OLED.o [1]
-PORTA_IRQHandler        0x000047c9   0x22  Code  Gb  camera.o [1]
+MENU_MAX                0x1fff0c0a    0x2  Data  Gb  Debug.o [1]
+NVIC_SystemReset        0x00003031   0x1a  Code  Lc  MK60_conf.o [1]
+OLED_Clear              0x00002d2d   0x36  Code  Gb  SCAR_OLED.o [1]
+OLED_DLY_ms             0x00002b55    0xe  Code  Gb  SCAR_OLED.o [1]
+OLED_DrawPoint          0x00002c7d   0x6a  Code  Gb  SCAR_OLED.o [1]
+OLED_GRAM               0x1fff0e64  0x400  Data  Gb  SCAR_OLED.o [1]
+OLED_Updata             0x00002ce7   0x46  Code  Gb  SCAR_OLED.o [1]
+OLED_WriteCmd           0x00002b07   0x4e  Code  Gb  SCAR_OLED.o [1]
+OLED_WriteData          0x00002ab9   0x4e  Code  Gb  SCAR_OLED.o [1]
 PORTX                   0x1fff0b88   0x14  Data  Gb  MK60_port.o [1]
-Region$$Table$$Base     0x00005b70          --   Gb  - Linker created -
-Region$$Table$$Limit    0x00005b80          --   Gb  - Linker created -
+Region$$Table$$Base     0x000054d0          --   Gb  - Linker created -
+Region$$Table$$Limit    0x000054e0          --   Gb  - Linker created -
 Reset_Handler           0x00000411         Code  Gb  startup_MK60DZ10.o [1]
-SCAR_OLED_Init          0x00002bbb  0x11a  Code  Gb  SCAR_OLED.o [1]
-SCCB_Ack                0x000042f9   0x3c  Code  Lc  VCAN_SCCB.o [1]
-SCCB_GPIO_init          0x0000423f   0x28  Code  Gb  VCAN_SCCB.o [1]
-SCCB_NoAck              0x00004335   0x3c  Code  Lc  VCAN_SCCB.o [1]
-SCCB_ReadByte           0x000044d5   0x2c  Code  Gb  VCAN_SCCB.o [1]
-SCCB_ReadByte_one       0x00004501   0x86  Code  Lc  VCAN_SCCB.o [1]
-SCCB_ReceiveByte        0x00004401   0x54  Code  Lc  VCAN_SCCB.o [1]
-SCCB_SendByte           0x000043bd   0x44  Code  Lc  VCAN_SCCB.o [1]
-SCCB_Start              0x00004267   0x5e  Code  Lc  VCAN_SCCB.o [1]
-SCCB_Stop               0x000042c5   0x34  Code  Lc  VCAN_SCCB.o [1]
-SCCB_WaitAck            0x00004371   0x4c  Code  Lc  VCAN_SCCB.o [1]
-SCCB_WriteByte          0x00004465   0x28  Code  Gb  VCAN_SCCB.o [1]
-SCCB_WriteByte_one      0x0000448d   0x48  Code  Lc  VCAN_SCCB.o [1]
-SCCB_delay              0x00004225   0x1a  Code  Lc  VCAN_SCCB.o [1]
+SCAR_OLED_Init          0x00002b63  0x11a  Code  Gb  SCAR_OLED.o [1]
 UARTN                   0x1fff0b9c   0x18  Data  Gb  MK60_uart.o [1]
-_CalcSizeOfChar         0x00005bed    0x6  Code  Lc  GUI_UC_EncodeNone.o [1]
-_DispLine               0x00005351   0x68  Code  Lc  GUICharLine.o [1]
-_DrawBitLine1BPP        0x0000251d   0xd8  Code  Lc  LCDDummy.o [1]
-_DrawBitLine2BPP        0x000025f5  0x194  Code  Lc  LCDDummy.o [1]
-_DrawBitLine4BPP        0x00002789  0x192  Code  Lc  LCDDummy.o [1]
-_DrawBitLine8BPP        0x0000291b   0xbe  Code  Lc  LCDDummy.o [1]
-_Encode                 0x00005bf3    0x8  Code  Lc  GUI_UC_EncodeNone.o [1]
+UI_menu_1               0x0000430d   0xc8  Code  Gb  Debug.o [1]
+UI_menu_2               0x000043d5   0x82  Code  Gb  Debug.o [1]
+UI_menu_3               0x00004457   0x74  Code  Gb  Debug.o [1]
+_CalcSizeOfChar         0x0000552d    0x6  Code  Lc  GUI_UC_EncodeNone.o [1]
+_Check_NegLong          0x000047a1   0x20  Code  Lc  GUI_AddDecShift.o [1]
+_DispLine               0x000048dd   0x68  Code  Lc  GUICharLine.o [1]
+_DrawBitLine1BPP        0x000024c5   0xd8  Code  Lc  LCDDummy.o [1]
+_DrawBitLine2BPP        0x0000259d  0x194  Code  Lc  LCDDummy.o [1]
+_DrawBitLine4BPP        0x00002731  0x192  Code  Lc  LCDDummy.o [1]
+_DrawBitLine8BPP        0x000028c3   0xbe  Code  Lc  LCDDummy.o [1]
+_Encode                 0x00005533    0x8  Code  Lc  GUI_UC_EncodeNone.o [1]
 _GenldFullNoMb          0x00000f13  0x24c  Code  Lc  xprintffull_nomb.o [3]
-_GetCharCode            0x00005be1    0x6  Code  Lc  GUI_UC_EncodeNone.o [1]
-_GetCharSize            0x00005be7    0x6  Code  Lc  GUI_UC_EncodeNone.o [1]
-_GetColorIndex          0x00003e25   0x10  Code  Lc  LCD.o [1]
-_InitContext            0x0000587d   0x3a  Code  Lc  GUICore.o [1]
+_GetCharCode            0x00005521    0x6  Code  Lc  GUI_UC_EncodeNone.o [1]
+_GetCharSize            0x00005527    0x6  Code  Lc  GUI_UC_EncodeNone.o [1]
+_GetColorIndex          0x00003dcd   0x10  Code  Lc  LCD.o [1]
+_GotoX                  0x000045ff    0xa  Code  Lc  GUI_Goto.o [1]
+_GotoY                  0x000045f5    0xa  Code  Lc  GUI_Goto.o [1]
+_InitContext            0x00005235   0x3a  Code  Lc  GUICore.o [1]
 _LdtobFullNoMb          0x00000b11  0x3fc  Code  Lc  xprintffull_nomb.o [3]
 _LitobFullNoMb          0x00000a0b  0x106  Code  Lc  xprintffull_nomb.o [3]
-_Locale_aeabi_lconv     0x1fff1a54   0x38  Data  Gb  localeconv.o [3]
-_Locale_lconv           0x1fff1a04   0x50  Data  Gb  localeconv.o [3]
+_Locale_aeabi_lconv     0x1fff1314   0x38  Data  Gb  localeconv.o [3]
+_Locale_lconv           0x1fff12c4   0x50  Data  Gb  localeconv.o [3]
 _PrintfFullNoMb         0x00000419  0x57e  Code  Gb  xprintffull_nomb.o [3]
-_Prout                  0x00005c6d   0x16  Code  Gb  xprout.o [3]
+_Prout                  0x0000557d   0x16  Code  Gb  xprout.o [3]
 _PutcharsFullNoMb       0x0000115f   0x2e  Code  Lc  xprintffull_nomb.o [3]
 __BOOT_STACK_ADDRESS {Abs}
                         0x2000fff8          --   Gb  command line/config [2]
@@ -701,23 +683,23 @@ __aeabi_i2d             0x000015c5         Code  Gb  I32ToDbl.o [5]
 __aeabi_ldiv0           0x00001bed         Code  Gb  I64DivZer.o [6]
 __aeabi_ui2d            0x000015d9         Code  Gb  I32ToDbl.o [5]
 __aeabi_uldivmod        0x00001251         Code  Gb  I64DivMod.o [6]
-__cmain                 0x00005bfd         Code  Gb  cmain.o [6]
+__cmain                 0x0000553d         Code  Gb  cmain.o [6]
 __code_start__ {Abs}    0x00000410          --   Gb  command line/config [2]
-__exit                  0x00005c29   0x14  Code  Gb  exit.o [7]
+__exit                  0x00005569   0x14  Code  Gb  exit.o [7]
 __iar_Dnorm             0x000013b7   0x42  Code  Gb  xdnorm.o [5]
 __iar_Dscale            0x00001459  0x114  Code  Gb  xdscale.o [5]
 __iar_Locale_lconv_init
                         0x00001b71   0x3a  Code  Gb  localeconv.o [3]
 __iar_Memchr            0x000011f9         Code  Gb  memchr.o [6]
-__iar_Stdout            0x1fff0c24   0x40  Data  Gb  xfiles.o [3]
+__iar_Stdout            0x1fff0bc8   0x40  Data  Gb  xfiles.o [3]
 __iar_Strchr            0x000011a9         Code  Gb  strchr.o [6]
 __iar_d2uiz             0x000015a5         Code  Gb  DblToI32.o [5]
 __iar_dadd              0x00001bf1         Code  Gb  DblAdd.o [5]
-__iar_data_init3        0x00005ab9   0x28  Code  Gb  data_init.o [6]
+__iar_data_init3        0x00005461   0x28  Code  Gb  data_init.o [6]
 __iar_dsub              0x00001609         Code  Gb  DblSub.o [5]
 __iar_dsubStart         0x0000161b         Code  Gb  DblSub.o [5]
-__iar_init_vfp          0x00005b4d         Code  Gb  fpinit_M.o [5]
-__iar_program_start     0x00005cf1         Code  Gb  cstartup_M.o [6]
+__iar_init_vfp          0x000054ad         Code  Gb  fpinit_M.o [5]
+__iar_program_start     0x000055d9         Code  Gb  cstartup_M.o [6]
 __iar_ui2d              0x000015dd         Code  Gb  I32ToDbl.o [5]
 __iar_unaligned___aeabi_memcpy
                         0x00001341         Code  Gb  ABImemcpy_unaligned.o [6]
@@ -725,76 +707,72 @@ __iar_unaligned___aeabi_memcpy4
                         0x00001361         Code  Gb  ABImemcpy_unaligned.o [6]
 __iar_unaligned___aeabi_memcpy8
                         0x00001361         Code  Gb  ABImemcpy_unaligned.o [6]
-__iar_zero_init3        0x000058e9   0x40  Code  Gb  zero_init3.o [6]
+__iar_zero_init3        0x000052a1   0x40  Code  Gb  zero_init3.o [6]
 __vector_table          0x00000000  0x410  Data  Gb  vectors.o [1]
-_call_main              0x00005c09         Code  Gb  cmain.o [6]
-_exit                   0x00005c1d         Code  Gb  cexit.o [6]
-_main                   0x00005c13         Code  Gb  cmain.o [6]
-arm_copy_q7             0x00004abd   0x5c  Code  Gb  arm_copy_q7.o [4]
-assert_failed           0x000030a3   0x26  Code  Gb  MK60_conf.o [1]
-bus_clk_khz             0x1fff19a8    0x4  Data  Gb  system_MK60DZ10.o [1]
-common_startup          0x00005737   0x98  Code  Gb  system_MK60DZ10.o [1]
-core_clk_khz            0x1fff19a0    0x4  Data  Gb  system_MK60DZ10.o [1]
-core_clk_mhz            0x1fff19a4    0x4  Data  Gb  system_MK60DZ10.o [1]
-default_isr             0x00003177   0x30  Code  Gb  MK60_conf.o [1]
+_call_main              0x00005549         Code  Gb  cmain.o [6]
+_exit                   0x0000555d         Code  Gb  cexit.o [6]
+_main                   0x00005553         Code  Gb  cmain.o [6]
+assert_failed           0x0000304b   0x26  Code  Gb  MK60_conf.o [1]
+bus_clk_khz             0x1fff126c    0x4  Data  Gb  system_MK60DZ10.o [1]
+common_startup          0x000050df   0x98  Code  Gb  system_MK60DZ10.o [1]
+core_clk_khz            0x1fff1264    0x4  Data  Gb  system_MK60DZ10.o [1]
+core_clk_mhz            0x1fff1268    0x4  Data  Gb  system_MK60DZ10.o [1]
+default_isr             0x0000311f   0x30  Code  Gb  MK60_conf.o [1]
 div                     0x00001bdd    0xe  Code  Gb  div.o [3]
-dma_gpio_input_init     0x00004b19   0x5c  Code  Lc  MK60_dma.o [1]
-dma_portx2buff_init     0x00004b75  0x1d8  Code  Gb  MK60_dma.o [1]
-exit                    0x00005c17    0x4  Code  Gb  exit.o [3]
-flash_cmd               0x1fff0c79   0x20  Code  Gb  MK60_flash.o [1]
-flash_erase_sector      0x1fff0cbd   0x5c  Code  Gb  MK60_flash.o [1]
-flash_init              0x1fff0c99   0x24  Code  Gb  MK60_flash.o [1]
-flash_write             0x1fff0d19   0xb4  Code  Gb  MK60_flash.o [1]
-fputc                   0x000030c9   0x14  Code  Gb  MK60_conf.o [1]
-gpio_get                0x00002f19   0x3a  Code  Gb  MK60_gpio.o [1]
-gpio_init               0x00002dc1   0xae  Code  Gb  MK60_gpio.o [1]
-gpio_set                0x00002e6f   0x72  Code  Gb  MK60_gpio.o [1]
-gpio_turn               0x00002ee1   0x38  Code  Gb  MK60_gpio.o [1]
-key_check               0x00003511   0x2a  Code  Gb  VCAN_key.o [1]
-key_get                 0x000034f7   0x1a  Code  Gb  VCAN_key.o [1]
-key_init                0x000034a5   0x52  Code  Gb  VCAN_key.o [1]
-led_init                0x000031c9   0x3a  Code  Gb  VCAN_LED.o [1]
-led_turn                0x00003203   0x32  Code  Gb  VCAN_LED.o [1]
+exit                    0x00005557    0x4  Code  Gb  exit.o [3]
+flash_cmd               0x1fff0c21   0x20  Code  Gb  MK60_flash.o [1]
+flash_erase_sector      0x1fff0c65   0x5c  Code  Gb  MK60_flash.o [1]
+flash_init              0x1fff0c41   0x24  Code  Gb  MK60_flash.o [1]
+flash_write             0x1fff0cc1   0xb4  Code  Gb  MK60_flash.o [1]
+fputc                   0x00003071   0x14  Code  Gb  MK60_conf.o [1]
+gpio_MAX                0x1fff0c0c    0x2  Data  Gb  myKey.o [1]
+gpio_get                0x00002ec1   0x3a  Code  Gb  MK60_gpio.o [1]
+gpio_init               0x00002d69   0xae  Code  Gb  MK60_gpio.o [1]
+gpio_set                0x00002e17   0x72  Code  Gb  MK60_gpio.o [1]
+gpio_turn               0x00002e89   0x38  Code  Gb  MK60_gpio.o [1]
+key_check               0x000034b9   0x2a  Code  Gb  VCAN_key.o [1]
+key_check_status        0x000045c9   0x2a  Code  Gb  myKey.o [1]
+key_get                 0x0000349f   0x1a  Code  Gb  VCAN_key.o [1]
+key_get_status          0x0000453d   0x66  Code  Gb  myKey.o [1]
+key_gpio                0x1fff0bb4    0x8  Data  Gb  myKey.o [1]
+key_init                0x0000344d   0x52  Code  Gb  VCAN_key.o [1]
+key_state               0x1fff0e08    0x4  Data  Gb  Debug.o [1]
+key_state_MAX           0x1fff0c08    0x2  Data  Gb  Debug.o [1]
+key_status              0x1fff0e4c   0x18  Data  Gb  myKey.o [1]
+key_win                 0x000045a3   0x1a  Code  Gb  myKey.o [1]
+led_init                0x00003171   0x3a  Code  Gb  VCAN_LED.o [1]
+led_turn                0x000031ab   0x32  Code  Gb  VCAN_LED.o [1]
 localeconv              0x00001bab   0x16  Code  Gb  localeconv.o [3]
-main                    0x00005849   0x34  Code  Gb  main.o [1]
+main                    0x000051f1   0x18  Code  Gb  main.o [1]
 mcg_cfg                 0x1fff0b2c   0x58  Data  Gb  MK60_mcg.o [1]
 mcg_div                 0x1fff0b84    0x4  Data  Gb  MK60_mcg.o [1]
-mcg_div_count           0x00003a61  0x2f4  Code  Gb  MK60_mcg.o [1]
+mcg_div_count           0x00003a09  0x2f4  Code  Gb  MK60_mcg.o [1]
 memchr                  0x000011f9         Code  Gb  memchr.o [6]
-obuf                    0x1fff19b0   0x50  Data  Lc  xfiles.o [3]
-ov7725_eagle_cfgnum     0x1fff0c65    0x1  Data  Gb  VCAN_OV7725_Eagle.o [1]
-ov7725_eagle_dma        0x00004945   0x14  Code  Gb  VCAN_OV7725_Eagle.o [1]
-ov7725_eagle_get_img    0x00004959   0x18  Code  Gb  VCAN_OV7725_Eagle.o [1]
-ov7725_eagle_img_buff   0x1fff19ac    0x4  Data  Gb  VCAN_OV7725_Eagle.o [1]
-ov7725_eagle_img_flag   0x1fff0c64    0x1  Data  Gb  VCAN_OV7725_Eagle.o [1]
-ov7725_eagle_init       0x00004885   0x18  Code  Gb  VCAN_OV7725_Eagle.o [1]
-ov7725_eagle_port_init  0x0000489d   0x54  Code  Lc  VCAN_OV7725_Eagle.o [1]
-ov7725_eagle_reg        0x1fff0bc0   0x64  Data  Gb  VCAN_OV7725_Eagle.o [1]
-ov7725_eagle_reg_init   0x00004971   0xb0  Code  Lc  VCAN_OV7725_Eagle.o [1]
-ov7725_eagle_vsync      0x000048f1   0x54  Code  Gb  VCAN_OV7725_Eagle.o [1]
-pll_init                0x00003d55   0xb2  Code  Gb  MK60_mcg.o [1]
-port_init               0x00002fc1   0x48  Code  Gb  MK60_port.o [1]
-port_init_NoALT         0x00003009   0x66  Code  Gb  MK60_port.o [1]
-printf                  0x00003239   0x24  Code  Gb  printf.o [3]
-putchar                 0x00005c85    0xc  Code  Gb  putchar.o [3]
-set_sys_dividers        0x1fff0e09   0x50  Code  Gb  MK60_mcg.o [1]
-set_vector_handler      0x00004a8f   0x22  Code  Gb  misc.o [1]
-start                   0x000056d9   0x22  Code  Gb  system_MK60DZ10.o [1]
-start_check             0x000030dd   0x9a  Code  Gb  MK60_conf.o [1]
+menu                    0x1fff0e00    0x8  Data  Gb  Debug.o [1]
+myKey_init              0x00004519   0x24  Code  Gb  myKey.o [1]
+obuf                    0x1fff1270   0x50  Data  Lc  xfiles.o [3]
+pll_init                0x00003cfd   0xb2  Code  Gb  MK60_mcg.o [1]
+port_init               0x00002f69   0x48  Code  Gb  MK60_port.o [1]
+port_init_NoALT         0x00002fb1   0x66  Code  Gb  MK60_port.o [1]
+printf                  0x000031e1   0x24  Code  Gb  printf.o [3]
+putchar                 0x00005595    0xc  Code  Gb  putchar.o [3]
+set_sys_dividers        0x1fff0db1   0x50  Code  Gb  MK60_mcg.o [1]
+start                   0x00005081   0x22  Code  Gb  system_MK60DZ10.o [1]
+start_check             0x00003085   0x9a  Code  Gb  MK60_conf.o [1]
 strchr                  0x000011a9         Code  Gb  strchr.o [6]
 strlen                  0x000011c1         Code  Gb  strlen.o [6]
-sysinit                 0x000056fb   0x3c  Code  Gb  system_MK60DZ10.o [1]
-systick_delay           0x00002f5d   0x36  Code  Gb  MK60_SysTick.o [1]
-systick_delay_ms        0x00002f93   0x18  Code  Gb  MK60_SysTick.o [1]
-uart_init               0x0000325d  0x214  Code  Gb  MK60_uart.o [1]
-uart_putchar            0x00003471   0x1a  Code  Gb  MK60_uart.o [1]
+sysinit                 0x000050a3   0x3c  Code  Gb  system_MK60DZ10.o [1]
+systick_delay           0x00002f05   0x36  Code  Gb  MK60_SysTick.o [1]
+systick_delay_ms        0x00002f3b   0x18  Code  Gb  MK60_SysTick.o [1]
+uart_init               0x00003205  0x214  Code  Gb  MK60_uart.o [1]
+uart_putchar            0x00003419   0x1a  Code  Gb  MK60_uart.o [1]
 vector_str              0x1fff0410  0x708  Data  Gb  MK60_conf.o [1]
-wdog_disable            0x00005809   0x16  Code  Gb  MK60_wdog.o [1]
-wdog_unlock             0x0000581f   0x20  Code  Lc  MK60_wdog.o [1]
-write_vtor              0x00004a6d   0x22  Code  Gb  misc.o [1]
+wdog_disable            0x000051b1   0x16  Code  Gb  MK60_wdog.o [1]
+wdog_unlock             0x000051c7   0x20  Code  Lc  MK60_wdog.o [1]
+write_vtor              0x00005209   0x22  Code  Gb  misc.o [1]
 
 
-[1] = C:\Users\ñÒºé±ö\Desktop\NXPCar2017\Prj\IAR\Debug\Obj
+[1] = C:\Users\ñÒºé±ö\Desktop\NXPCar2018\Prj\IAR\Debug\Obj
 [2] = command line
 [3] = dl7M_tlf.a
 [4] = iar_cortexM4l_math.a
@@ -802,10 +780,10 @@ write_vtor              0x00004a6d   0x22  Code  Gb  misc.o [1]
 [6] = rt7M_tl.a
 [7] = shb_l.a
 
-  17 612 bytes of readonly  code memory
+  16 092 bytes of readonly  code memory
      496 bytes of readwrite code memory
-   6 338 bytes of readonly  data memory
-   5 256 bytes of readwrite data memory
+   6 082 bytes of readonly  data memory
+   3 399 bytes of readwrite data memory
 
 Errors: none
 Warnings: none

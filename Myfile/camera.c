@@ -28,7 +28,7 @@ uint8_t Camera_Init(void)
     {
      //传输函数
      DMA_Init(DMA_CH1, CameraBuff, CameraData);
-    //配置摄像头中断服务函数
+     //配置摄像头中断服务函数
      set_vector_handler(PORTA_VECTORn ,PORTA_IRQHandler);    //设置PORTA的中断服务函数为 PORTA_IRQHandler
      set_vector_handler(DMA0_VECTORn ,DMA0_IRQHandler);      //设置DMA0的中断服务函数为 DMA0_IRQHandler
      //传输中断
